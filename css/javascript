@@ -1,0 +1,14 @@
+$(function(){
+$('.HSshowit').click(function(e) {
+     $(this).prev('.HSouter').children('.HSbox').toggleClass('HSshow');
+  var condition = $(this).attr("rev");
+  if(condition == "more"){
+    $(this).html("Show Less <i class='fa fa-caret-square-o-down'>");
+    $(this).attr("rev","less");
+  }
+  else{
+    $(this).html("Show More <i class='fa fa-caret-square-o-up'>");
+    $(this).attr("rev","more");
+  }
+});
+});
