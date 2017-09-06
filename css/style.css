@@ -62,6 +62,24 @@ width: 100%;
  
 }
 
+.refpics{
+  width: 150px;
+  margin: 0 auto;
+   padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.leftside{
+  text-align: left;
+}
+
+.reference{
+  text-align: center;
+}
 #myBtn {
   display: none;
   position: fixed;
